@@ -51,11 +51,16 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+        // スワイプで削除を実現するために、編集可能にする
+        
         return true
     }
     
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        // 何かの形で編集されようとしているときに呼ばれる
+        
         if editingStyle == .delete{
+            // セルを削除する場合
             // 通知の削除
             notificationCenter.removePendingNotificationRequests(withIdentifiers: ["Alarm-\(alarmJobArray[indexPath.row].id)"])
             
