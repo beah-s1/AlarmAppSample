@@ -22,3 +22,7 @@
 
 - スワイプで削除できます（通知もされなくなります）
 ![IMG_1021](https://user-images.githubusercontent.com/30878285/108257919-d0ffd580-71a2-11eb-80fe-bcc436f7d91b.PNG)
+
+# Xcodeの対応について
+- Swift Package Managerがまともに使えるのがXcode11≤なので、Xcode10.2などはCocoaPodsを使う必要があります。
+- Realmの使い方自体は変わっていないので、ViewControllerのロジックなどはそっくりそのままコピペで動くと思います。
