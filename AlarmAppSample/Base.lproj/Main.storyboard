@@ -44,16 +44,10 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="85"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pFh-Nd-N35">
-                                                    <rect key="frame" x="345" y="27" width="49" height="31"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2021/02/02 10:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wLL-uz-rRz">
+                                                    <rect key="frame" x="20" y="24" width="277" height="36"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" secondItem="pFh-Nd-N35" secondAttribute="height" multiplier="47:31" id="O9i-69-nmL"/>
-                                                    </constraints>
-                                                </switch>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wLL-uz-rRz">
-                                                    <rect key="frame" x="20" y="24" width="77" height="36"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" secondItem="wLL-uz-rRz" secondAttribute="height" multiplier="77:36" id="UmV-Vb-BWN"/>
+                                                        <constraint firstAttribute="width" secondItem="wLL-uz-rRz" secondAttribute="height" multiplier="77:10" id="UmV-Vb-BWN"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                     <nil key="textColor"/>
@@ -61,16 +55,12 @@
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="bottomMargin" secondItem="pFh-Nd-N35" secondAttribute="bottom" constant="16" id="3Er-AB-Ddc"/>
                                                 <constraint firstItem="wLL-uz-rRz" firstAttribute="top" secondItem="Oma-hK-Enx" secondAttribute="topMargin" constant="13" id="93U-6N-X0r"/>
                                                 <constraint firstItem="wLL-uz-rRz" firstAttribute="leading" secondItem="Oma-hK-Enx" secondAttribute="leadingMargin" id="LrU-pD-DcD"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="pFh-Nd-N35" secondAttribute="trailing" constant="2" id="QQy-6i-8Tz"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="wLL-uz-rRz" secondAttribute="bottom" constant="14" id="wlY-nQ-qu0"/>
-                                                <constraint firstItem="pFh-Nd-N35" firstAttribute="top" secondItem="Oma-hK-Enx" secondAttribute="topMargin" constant="16" id="wnU-s5-VWk"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="availableSwitch" destination="pFh-Nd-N35" id="XQu-Fk-r4n"/>
                                             <outlet property="timeLabel" destination="wLL-uz-rRz" id="01m-Tx-wCq"/>
                                         </connections>
                                     </tableViewCell>
@@ -105,7 +95,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="RM7-pK-tHx">
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="RM7-pK-tHx">
                                 <rect key="frame" x="0.0" y="114" width="414" height="162"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="RM7-pK-tHx" secondAttribute="height" multiplier="23:9" id="isc-kE-Egj"/>

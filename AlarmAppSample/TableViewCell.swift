@@ -10,7 +10,6 @@ import RealmSwift
 
 class TableViewCell: UITableViewCell {
     @IBOutlet weak var timeLabel: UILabel!
-    @IBOutlet weak var availableSwitch: UISwitch!
     
     var job: AlarmJob!
     
@@ -25,10 +24,9 @@ class TableViewCell: UITableViewCell {
         }
         
         let formatter = DateFormatter()
-        formatter.dateFormat = "HH:mm"
+        formatter.dateFormat = "MM月dd日 HH:mm"
         
         self.timeLabel.text = formatter.string(from: job.time)
-        self.availableSwitch.isOn = job.isOn
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
