@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9613F16025DD9121000A8507 /* CreateAlarmJobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9613F15F25DD9121000A8507 /* CreateAlarmJobViewController.swift */; };
+		9613F16525DD912C000A8507 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9613F16425DD912C000A8507 /* TableViewCell.swift */; };
 		96DD99FF25DD8BF5002215DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD99FE25DD8BF5002215DF /* AppDelegate.swift */; };
 		96DD9A0125DD8BF5002215DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD9A0025DD8BF5002215DF /* SceneDelegate.swift */; };
 		96DD9A0325DD8BF5002215DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD9A0225DD8BF5002215DF /* ViewController.swift */; };
@@ -17,8 +19,6 @@
 		96DD9A2125DD8BF6002215DF /* AlarmAppSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD9A2025DD8BF6002215DF /* AlarmAppSampleUITests.swift */; };
 		96DD9A3325DD8C9E002215DF /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 96DD9A3225DD8C9E002215DF /* Realm */; };
 		96DD9A3525DD8C9E002215DF /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 96DD9A3425DD8C9E002215DF /* RealmSwift */; };
-		96DD9A3A25DD8D36002215DF /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD9A3925DD8D36002215DF /* TableViewCell.swift */; };
-		96DD9A3F25DD8D41002215DF /* CreateAlarmJobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD9A3E25DD8D41002215DF /* CreateAlarmJobViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9613F15F25DD9121000A8507 /* CreateAlarmJobViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAlarmJobViewController.swift; sourceTree = "<group>"; };
+		9613F16425DD912C000A8507 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		96DD99FB25DD8BF5002215DF /* AlarmAppSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlarmAppSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96DD99FE25DD8BF5002215DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96DD9A0025DD8BF5002215DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,8 +55,6 @@
 		96DD9A1C25DD8BF6002215DF /* AlarmAppSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlarmAppSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96DD9A2025DD8BF6002215DF /* AlarmAppSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmAppSampleUITests.swift; sourceTree = "<group>"; };
 		96DD9A2225DD8BF6002215DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		96DD9A3925DD8D36002215DF /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewCell.swift; path = ../../../../Desktop/AlarmAppSample/AlarmAppSample/TableViewCell.swift; sourceTree = "<group>"; };
-		96DD9A3E25DD8D41002215DF /* CreateAlarmJobViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateAlarmJobViewController.swift; path = ../../../../Desktop/AlarmAppSample/AlarmAppSample/CreateAlarmJobViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,10 +111,10 @@
 				96DD9A0025DD8BF5002215DF /* SceneDelegate.swift */,
 				96DD9A0225DD8BF5002215DF /* ViewController.swift */,
 				96DD9A0425DD8BF5002215DF /* Main.storyboard */,
+				9613F15F25DD9121000A8507 /* CreateAlarmJobViewController.swift */,
+				9613F16425DD912C000A8507 /* TableViewCell.swift */,
 				96DD9A0725DD8BF6002215DF /* Assets.xcassets */,
 				96DD9A0925DD8BF6002215DF /* LaunchScreen.storyboard */,
-				96DD9A3E25DD8D41002215DF /* CreateAlarmJobViewController.swift */,
-				96DD9A3925DD8D36002215DF /* TableViewCell.swift */,
 				96DD9A0C25DD8BF6002215DF /* Info.plist */,
 			);
 			path = AlarmAppSample;
@@ -275,10 +275,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9613F16525DD912C000A8507 /* TableViewCell.swift in Sources */,
 				96DD9A0325DD8BF5002215DF /* ViewController.swift in Sources */,
-				96DD9A3F25DD8D41002215DF /* CreateAlarmJobViewController.swift in Sources */,
-				96DD9A3A25DD8D36002215DF /* TableViewCell.swift in Sources */,
 				96DD99FF25DD8BF5002215DF /* AppDelegate.swift in Sources */,
+				9613F16025DD9121000A8507 /* CreateAlarmJobViewController.swift in Sources */,
 				96DD9A0125DD8BF5002215DF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
